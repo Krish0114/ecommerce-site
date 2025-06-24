@@ -16,7 +16,7 @@ const shopReviewRouter = require("./routes/shop/review-routes");
 const commonFeatureRouter = require("./routes/common/feature-routes");
 
 mongoose
-.connect("mongodb+srv://krishkheriya59:krishkheriya2006@cluster0.t7rf4.mongodb.net/")
+.connect("************************")
   .then(() => console.log("MongoDB connected"))
   .catch((error) => console.log(error));
 
